@@ -1,17 +1,14 @@
 # UTS_AVD_SEMESTER_2
 # 📊 Exploratory Data Analysis — Netflix Titles Dataset
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?logo=pandas)
-![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4c72b0)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-
-> Tugas Perorang — Mata Kuliah **Analitik Data dan Visualisasi**
-
+## Tugas Perorang — Mata Kuliah **Analitik Data dan Visualisasi**
+## Nama     : Brendhen Canafaro Lie
+## NIM      : 2509116033
+## Kelas    : A
+## Angkatan : 2025
 ---
 
-## 📌 Latar Belakang
+## Latar Belakang
 
 Netflix adalah platform streaming terbesar di dunia dengan lebih dari 200 juta pelanggan aktif. Dataset **Netflix Titles** merupakan data publik yang berisi informasi lengkap mengenai konten yang tersedia di Netflix hingga tahun 2021 — mencakup **8.807 judul** dengan **12 atribut** seperti tipe konten, genre, negara produksi, tahun rilis, rating, dan durasi.
 
@@ -19,7 +16,7 @@ Analisis ini bertujuan untuk **memahami pola dan karakteristik konten Netflix** 
 
 ---
 
-## 🎯 Tujuan Analisis (Analytic Goals)
+## Tujuan Analisis (Analytic Goals)
 
 1. **Comparison** — Genre dan tipe konten apa yang paling dominan di Netflix?
 2. **Composition** — Negara mana yang paling banyak memproduksi konten Netflix?
@@ -28,19 +25,21 @@ Analisis ini bertujuan untuk **memahami pola dan karakteristik konten Netflix** 
 
 ---
 
-## 📁 Struktur Repository
+## Struktur Repository
 
 ```
 📦 EDA-Netflix-Titles
- ┣ 📓 EDA_Netflix_Fixed.ipynb        ← Notebook utama (EDA lengkap)
+ ┣ 📂 Dataset_Film                   ← Notebook utama (EDA lengkap)
+ ┣ 📓 EDA                            ← Notebook berisi EDA
+ ┣ 📓 Latar_Belakang                 ← Notebook berisi Latar Belakang
+ ┣ 📓 EDA                            ← Notebook berisi Tahapan Proses
  ┣ 📄 README.md                      ← Dokumentasi proyek
- ┗ 📂 dataset/
-    ┗ 📄 netflix_titles(Bersih).csv  ← Dataset bersih
+
 ```
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Nama:** Netflix Movies and TV Shows
 - **Sumber:** [Kaggle — shivamb/netflix-shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
@@ -66,7 +65,7 @@ Analisis ini bertujuan untuk **memahami pola dan karakteristik konten Netflix** 
 
 ---
 
-## 🔍 Tahapan Analisis
+## Tahapan Analisis
 
 ### 1. Import Library
 Menggunakan `pandas`, `numpy`, `matplotlib`, dan `seaborn`.
@@ -79,9 +78,9 @@ Terdapat **8 visualisasi terpisah**, masing-masing dilengkapi insight dan rekome
 
 ---
 
-## 📊 Hasil EDA
+## Hasil EDA
 
-### 🔵 Comparison
+### Comparison
 
 **1.1 Movie vs TV Show**
 - Movie mendominasi dengan **6.131 judul (69.6%)** vs TV Show 2.676 judul (30.4%)
@@ -95,7 +94,7 @@ Terdapat **8 visualisasi terpisah**, masing-masing dilengkapi insight dan rekome
 
 ---
 
-### 🟢 Composition
+### Composition
 
 **1.3 Proporsi Negara Produksi (Pie Chart)**
 - United States mendominasi ~40% dari seluruh konten
@@ -109,7 +108,7 @@ Terdapat **8 visualisasi terpisah**, masing-masing dilengkapi insight dan rekome
 
 ---
 
-### 🔴 Distribution
+### Distribution
 
 **1.5 Distribusi Tahun Rilis (Histogram)**
 - Distribusi right-skewed — mayoritas konten dari tahun 2015–2021
@@ -123,7 +122,7 @@ Terdapat **8 visualisasi terpisah**, masing-masing dilengkapi insight dan rekome
 
 ---
 
-### 🟡 Relationship
+### Relationship
 
 **1.7 Rating berdasarkan Tipe Konten (Grouped Bar)**
 - TV-MA adalah rating paling dominan, terutama dari TV Show
@@ -137,7 +136,7 @@ Terdapat **8 visualisasi terpisah**, masing-masing dilengkapi insight dan rekome
 
 ---
 
-## 💡 Kesimpulan
+## Kesimpulan
 
 **Comparison:** Movie mendominasi (69.6%), genre terbanyak International Movies — Netflix aktif ekspansi konten global.
 
@@ -149,7 +148,7 @@ Terdapat **8 visualisasi terpisah**, masing-masing dilengkapi insight dan rekome
 
 ---
 
-## 🛠️ Library yang Digunakan
+## Library yang Digunakan
 
 ```python
 pandas
@@ -160,7 +159,7 @@ seaborn
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 1. Clone repository ini
 ```bash
@@ -177,16 +176,5 @@ cd EDA-Netflix-Titles
 file = "/content/netflix_titles(Bersih).csv"
 ```
 
-5. Klik **Runtime → Run all** `(Ctrl+F9)`
+5. Klik **Runtime → Run all** 
 
----
-
-## 📬 Submit
-
-- 📁 Upload notebook ke **GitHub**
-- 📝 Submit link ke: [https://forms.gle/iNHKTxBYQSFym6yP8](https://forms.gle/iNHKTxBYQSFym6yP8)
-- ⏰ Deadline: **Sebelum UAS**
-
----
-
-> 📌 *Dataset bersifat publik dan diambil dari Kaggle. Analisis ini dibuat untuk keperluan akademik.*
