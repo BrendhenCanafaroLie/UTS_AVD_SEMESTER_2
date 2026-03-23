@@ -2,9 +2,9 @@
 # 📊 Exploratory Data Analysis — Netflix Titles Dataset
 
 ## Tugas Perorang — Mata Kuliah **Analitik Data dan Visualisasi**
- Nama     : Brendhen Canafaro Lie
- NIM      : 2509116033
- Kelas    : A
+ Nama     : Brendhen Canafaro Lie,
+ NIM      : 2509116033,
+ Kelas    : A,
  Angkatan : 2025
 ---
 
