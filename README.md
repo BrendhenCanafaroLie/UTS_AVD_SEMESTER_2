@@ -1,5 +1,5 @@
 # UTS_AVD_SEMESTER_2
-# 📊 Exploratory Data Analysis — Netflix Titles Dataset
+# Exploratory Data Analysis — Netflix Titles Dataset
 
  Tugas Perorang — Mata Kuliah **Analitik Data dan Visualisasi**
  
