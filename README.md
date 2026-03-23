@@ -36,8 +36,9 @@ Analisis ini bertujuan untuk **memahami pola dan karakteristik konten Netflix** 
 📦 EDA-Netflix-Titles
  ┣ 📂 Dataset_Film                   ← Notebook utama (EDA lengkap)
  ┣ 📓 EDA                            ← Notebook berisi EDA
+ ┣ 📓 Laporan_PDF                    ← Laporan PDF
  ┣ 📓 Latar_Belakang                 ← Notebook berisi Latar Belakang
- ┣ 📓 EDA                            ← Notebook berisi Tahapan Proses
+ ┣ 📓 Tahapan_Proses                            ← Notebook berisi Tahapan Proses
  ┣ 📄 README.md                      ← Dokumentasi proyek
 
 ```
